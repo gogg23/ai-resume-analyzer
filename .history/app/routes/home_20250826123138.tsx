@@ -1,4 +1,5 @@
 import type { Route } from './+types/home';
+import { Welcome } from '../welcome/welcome';
 
 export function meta({}: Route.MetaArgs) {
   return [
@@ -8,13 +9,5 @@ export function meta({}: Route.MetaArgs) {
 }
 
 export default function Home() {
-  return <main>
-    <section className='main-section'>
-      <div className='page-heading'>
-        <h1>Monitor job applications & resume ratings</h1>
-
-      </div>
-
-    </section>
-  </main>;
+  return <Welcome />;
 }
