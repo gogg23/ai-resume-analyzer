@@ -1,8 +1,8 @@
-export const resumes : [
+export const resumes : [{
     {id:"1"...},
-    {id:"2"...},
-    {id:"3"...},
-],
+    
+
+}]
 
 export const resumes: Resume[] = [
   {
